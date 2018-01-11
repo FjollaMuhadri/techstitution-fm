@@ -1,133 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <title>Techstitution</title>
-         <link rel="stylesheet" href="css/style.css"/> 
-         <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-         <script src="js/jquery-3.2.1.min.js"></script>
-         <script src="css/bootstrap/js/bootstrap.min.js">
-         </script>
+<title>Techstitution</title>
+         
+<head>
 
+ <link href="css/style.css" rel="stylesheet"/>
+ <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="js/jquery-3.2.1.min.js"></script>
+  -
+  <script src="css/bootstrap/js/bootstrap.min.js"></script>
+       
+</head>
 
-    </head>
+ <body>
+  <div class="container col-sm-8 col-sm-offset-2" style="background-color: #E6E6FA ;">
+<h2 class="alignment" align="middle" style="color:#336699;font-weight:bold;">Forma e regjistrimit te pikave kufitare</h2>
+<hr>
+   <h2>1<hr align="left" width="50%" ">
+  
 
-    <body>
-    <!--<div> 
-    	<p class="highlight"> You say yes</p>
-    	<p>I say no</p>
-    </div>
-
-    <div>
-    	<p class="highlight">You say goodbye</p>
-    	<p >I say hello</p>
-    </div>-->
-    <h1>Selectors Exercise</h1>
-
-<p>PARAGRAPH NOT INSIDE A DIV</p>
-
-<div>
-  <p class="hello">I am a paragraph with a class</p>
-  <p id="special">I am a paragraph with an ID</p>
-
-  <h2>I am an awesome h2</h2>
-
-
-  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBRB McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever.</p>
-
-</div>
-
-<div>
-  <h2>Things I need to do</h2>
-
-  <ul>
-    <li>Walk Dog <input type="checkbox" value="1"  checked> </li>
-    <li>Feed Dog <input type="checkbox" value="2" chedked> </li>
-    <li>Wash Dog <input type="checkbox" value="3"></li>
-  </ul>
-</div>
-
-<div>
-  <h2>I am another awesome h2</h2>
-
-  <p>Cardigan Tumblr mlkshk, fap tilde 3 wolf moon Portland. Heirloom health goth taxidermy blog lo-fi selfies, post-ironic master cleanse fingerstache normcore. Kickstarter plaid twee, bespoke single-origin coffee sustainable lo-fi vinyl Pinterest pork belly <em>cronut skateboard</em> 3 wolf moon. Normcore single-origin coffee salvia, bespoke Austin swag Godard before they sold out kogi disrupt locavore. Lumbersexual Shoreditch Vice, artisan American Apparel master cleanse yr salvia vegan. Bespoke letterpress heirloom kale chips deep v four loko. Lomo sustainable put a bird on it trust fund post-ironic</p>
-
-  <p>I'm the second paragraph inside this div!</p>
-</div>
-
-<p>PARAGRAPH NOT INSIDE A DIV</p>
-
-
-<div class="pink">
-  <h2>A less awesome h2</h2>
-
-  <p>Roof party yr hella synth, Wes Anderson narwhal four dollar toast before they sold out retro lo-fi. Austin iPhone pop-up farm-to-table, PBRB McSweeney's ennui messenger bag distillery before they sold out Portland wolf fanny pack YOLO. Locavore slow-carb trust fund farm-to-table. Pinterest gastropub lo-fi, McSweeney's trust fund VHS shabby chic ugh Austin twee. Messenger bag banjo lumbersexual, whatever 3 wolf moon XOXO normcore. Pug fanny pack 3 wolf moon, typewriter organic chia mustache scenester seitan shabby chic Blue Bottle salvia ugh iPhone. Fanny pack Williamsburg direct trade, cold-pressed disrupt flannel listicle health goth asymmetrical freegan mixtape street art pour-over whatever</p>
-
-  <p>One last paragraph here!</p>
-
-  <a href="http://www.facebook.com">I am a link to facebook</a>
-  <a href="http://www.facebook.com">I am another link to facebook</a>
-  <br>
-
-  <input type="text" name="name" /><label> Name</label><br/>
-  <input type="password" name="password" /><label> Password</label><br/>
-
-</div>
-
-<p>PARAGRAPH NOT INSIDE A DIV</p>
-
-<h1>Register</h1>
-
+   </h2>
 <form>
-	<label>First Name:</label>
-	<input type="text" placeholder="Your name">
-	<label>Last name :</label>
-	<input type="text" placeholder="Your lastname">
-	<br>
-	<input type="radio" value="male" name="gender" >Male
-	<input type="radio" value="female" name="gender">Female
-	<input type="radio" value="other" name="gender">Other
-	<br>
-	<label>Email:</label>
-	<input type="text" placeholder="Your email">
-	<label>Password</label>
-	<input type="password" placeholder="Your password">
-	<br>
-	<label>Birthday:</label>
-    <select>
-    	<option>Month</option>
-    	<option value="1">Jan</option>
-    	<option value="1">Feb</option>
-    	<option value="1">Mar</option>
-    	<option value="1">Apr</option>
-    	<option value="1">May</option>
-    	<option value="1">Jun</option>
-    	<option value="1">Jul</option>
-    	<option value="1">Aug</option>
-    	<option value="1">Sep</option>
-    	<option value="1">Oct</option>
-    	<option value="1">Nov</option>
-    	<option value="1">Dec</option>
+   	<div class="form-group">
+  <label for="sel1">Pika kufitare: </label>
+
+<select>
+    <option value="" selected disabled>Zgjedh piken kufitare</option>
+    <option value="">Vermice</option>
+    <option value="">Qafe e Prushit</option>
+    <option value="">Qafe e Morines</option>
+    <option value="">Kulle</option>
+    <option value="">Bernjak</option>
+    <option value="">Jarinje</option>
+    <option value="">Merdare</option>
+    <option value="">Mutivode</option>
+    <option value="">Dheu i bardhe</option>
+    <option value="">Mucibabe</option>
+    <option value="">Hani i Elezit</option>
+    <option value="">Globoqice</option>
+</select>
+  
+  </select><br><br>
+  <h2>2<hr align="left" width="50%"></h2>
+  <h3>Hyrje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2"  for = "hyrje1 ">Minimum</label>
+     <div class="col-sm-3" >
+       <input class="form-control input-sm" id="hyrje1" type="text">
+
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje2">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje2" type="text">
+   </div>
+   <span>Minuta</span>
+<h3>Dalje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje1">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje1" type="text">
+   </div>
+   <span>Minuta</span>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje2">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje2" type="text">
+   </div>
+   <span>Minuta</span>
+
+<h2>3<hr align="left" width="50%"></h2>
+<h3>Hyrje</h3>
+  
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje3">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje3" type="text">
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje4">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje4" type="text">
+   </div>
+   <span>Minuta</span>
+<h3>Dalje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje3">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje3" type="text">
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje4">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje4" type="text">
+   </div>
+   <span>Minuta</span>
 
 
-    </select>
-    <select>
-    	<option>Day</option>
-    	<option value="1">1</option>
-
-    </select>
-    <select>
-    	<option>Year</option>
-    	<option value="1">1996</option>
-
-    </select>
-    <br>
-    <label>I agree to the terms and conditions</label>
-    <input type="checkbox">
-    <br>
-    <input type="submit" name="sub" >
-</form>
-
-
-    </body>
-
-    </html>
+  <br> <br><br>
+   <div class="container col-sm-offset-4">
+  <button type="button" class="btn btn-info">Dergo</button>   <button type="button" class="btn btn-info">Fshij</button>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+<% include partials/header %>
+<% include partials/nav %>
+
+
+<div class="container col-sm-8 col-sm-offset-2" style="background-color: #E6E6FA ;">
+<h2 class="alignment" align="middle" style="color:#336699;font-weight:bold;"><%= title%></h2>
+<hr>
+   <h2>1<hr align="left" width="50%" ">
+  
+
+   </h2>
+<form>
+   	<div class="form-group">
+  <label for="sel1">Pika kufitare: </label>
+
+<select class="col-sm-6" name="pika_kufitare" value="<%= doc.pika_kufitare %>">
+	<option value="" selected disabled>Zgjedh piken kufitare</option>
+    <option value="">Vermice</option>
+    <option value="">Qafe e Prushit</option>
+    <option value="">Qafe e Morines</option>
+    <option value="">Kulle</option>
+    <option value="">Bernjak</option>
+    <option value="">Jarinje</option>
+    <option value="">Merdare</option>
+    <option value="">Mutivode</option>
+    <option value="">Dheu i bardhe</option>
+    <option value="">Mucibabe</option>
+    <option value="">Hani i Elezit</option>
+    <option value="">Globoqice</option>  
+  </select><br><br>
+  <h2>2<hr align="left" width="50%"></h2>
+  <h3>Hyrje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2"  for = "hyrje1 ">Minimum</label>
+     <div class="col-sm-3" >
+       <input class="form-control input-sm" id="hyrje1" name="hyrje1_minimum" value=" <%= doc.hyrje1_minimum %>" type="text">
+
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje2">Maximum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje2" name="hyrje2_maximum" value="<% doc.hyrje2_maximum %>" type="text">
+   </div>
+   <span>Minuta</span>
+<h3>Dalje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje1">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje1" name="dalje1_minimum" value="<% doc.dalje1_minimum %>" type="text">
+   </div>
+   <span>Minuta</span>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje2">Maximum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje2" name= "dalje2_maximum" value="<% doc.dalje2_maximum %>" type="text">
+   </div>
+   <span>Minuta</span>
+
+<h2>3<hr align="left" width="50%"></h2>
+<h3>Hyrje</h3>
+  
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje3">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje3" name="hyrje3_minimum" value="<% doc.hyrje3_minimum %>" type="text">
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje4">Maximum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje4" name="hyrje4_maximum" value="<% doc.hyrje4_maximum%> " type="text">
+   </div>
+   <span>Minuta</span>
+<h3>Dalje</h3>
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje3">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje3" name="dalje3_minimum" value="<% doc.dalje3_minimum%>" type="text">
+   </div>
+   <span>Minuta</span>
+
+  <div class=" form-group"></div>
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "dalje4">Maximum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="dalje4" name="dalje4_maximum" value="<%doc.dalje4_maximum%>" type="text">
+   </div>
+   <span>Minuta</span>
+
+
+  <br> <br><br>
+   <div class="container col-sm-offset-4">
+  <button type="submit" class="btn btn-info">Dergo</button>   <button type="button" class="btn btn-info">Fshij</button>
+</form>
+
+
+<% include partials/footer %>
